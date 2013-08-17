@@ -1,24 +1,24 @@
 * { padding: 0; margin: 0; -webkit-transition: all .33s; }
 body { background-color: #333; }
-p { font-family: Helvetica, Verdana, Arial, sans-serif; color: #444; font-size: 16px; line-height: 1.4em; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
-a { color: #444;  text-decoration: none; border-bottom: 1px solid rgb(158, 206, 95); }
-a:hover { color: rgb(158, 206, 95); border-bottom: 1px solid rgba(68,68,68,.5); }
+p { font-family: Helvetica, Verdana, Arial, sans-serif; color: #feffff; font-size: 16px; line-height: 1.4em; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
+a { color: #feffff;  text-decoration: none; border-bottom: 1px solid rgb(38, 170, 225); }
+a:hover { color: rgb(38, 170, 225); border-bottom: 1px solid rgba(68,68,68,0); }
 
 @media (min-width: 768px) {
-#monogram { right: 50px; bottom: 27px; padding: 25px 0 0 0; margin: 0; font-size: 72px; color: rgba(254,255,255,.3);  position: fixed;}
+#monogram { left: 50px; bottom: 27px; padding: 0 25px 0 0; margin: 0; font-size: 72px; color: rgba(254,255,255,.3);  position: fixed;}
 #monogram a {color: inherit; border-bottom: transparent;}
-#monogram a:hover {color: rgba(158, 206, 95,1);}
-#about { left: 50px; top: 50px; width: 575px; padding: 0 150px 0 0; margin: auto auto 0 auto !important; position: fixed; }
+#monogram a:hover {color: rgb(38, 170, 225);}
+#about { right: 50px; top: 50px; width: 575px; padding: 20px; margin: auto auto 0 auto !important; position: fixed; background-color: rgba(68, 68, 68, 0.8); }
 }
 
 @media (max-width: 767px) {
 #monogram { margin: 0px; padding-left: 0; padding-bottom: 0; padding-right: 0; padding-top: 0px; position: relative; width: auto; text-align: center; font-size: 48px; color: rgba(254,255,255,.3); }
 #monogram a {color: inherit; border-bottom: transparent;}
-#monogram a:hover {color: rgba(158, 206, 95,1);}
+#monogram a:hover {color: rgb(38, 170, 225);}
 #about { padding-left: 20px; padding-bottom: 0px; padding-right: 20px; padding-top: 20px; position: relative !important; width: auto; margin: 0 !important; }
 #about p {color: #feffff;}
 #about a {color: inherit;}
-#about a:hover {color: rgb(158,206,95); border-bottom-color: #feffff;}
-background-image { opacity: 0.2; }
+#about a:hover {color: rgb(38, 170, 225); border-bottom: 1px solid rgba(68,68,68,0);}
+background-image { opacity: 0.1; }
 div.backstretch {opacity: .2;}
 }

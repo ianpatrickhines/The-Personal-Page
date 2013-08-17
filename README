@@ -22,7 +22,7 @@ This simple one-page website is a way for people to have a very quick and easy p
 See the original: http://thepersonalpage.me/demo
 
 See others' versions:
-http://whois.ianhin.es
+http://ianhin.es
 http://jenschuetz.com/
 http://timlum.com
 
@@ -39,18 +39,6 @@ Usage is simple:
 5) You can switch the position of the monogram and text as seen in timlum.com. 
 
 =============================
-
-Regarding the Symbolset Font:
-
-This version of The Personal Page makes use of Symbolset (http://symbolset.com). 
-
-Symbolsets are semantic symbol fonts. They work in modern browsers and anywhere OpenType features are supported.
-
-The use of Symbolset's fonts is governed by their product license, which can be found here: http://symbolset.com/license/
-
-If you intend to use Symbolset fonts in your own iteration of The Personal Page, you must purchase your own license from http://symbolset.com. They're quite affordable, and are well worth the money.
-
-=============================
 Change Notes:
 =============================
 
@@ -64,3 +52,8 @@ v1.2
 - Moved the monogram to the bottom left (display) or bottom (mobile)
 - Replaced the monogram with a typographic logo via Symbolset
 (http://symbolset.com)
+
+v1.3
+- Moved the text back to the right
+- Removed the monogram altogether
+- Removed the Symbolset fonts.
